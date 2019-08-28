@@ -41,7 +41,7 @@ const App: React.FC = () => {
                         </li>
                     </ul>
                 </nav>
-                <Route path="/buttons/" component={ContainedButtons}/>
+                <Route path="/buttons" component={ContainedButtons}/>
                 <Route path="/switch/" component={SwitchLabels}/>
             </div>
         </Router>
